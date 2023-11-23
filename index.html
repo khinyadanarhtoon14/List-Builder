@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/list.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <main id="app">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <div class="mb-4">
+                        <h1 class=" fw-bold mb-4">List Builder</h1>
+                    <div class="input-group input-group-lg">
+                        <input type="text" class="form-control " id="inputText">
+                        <button class="btn btn-primary text-white" id="addBtn">
+                            <i class="bi bi-plus"></i>
+                        </button>
+
+
+                        
+
+                    </div>
+
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h4 class="fw-bold">Your List</h4>
+                        <p class="bg-primary text-white-50 px-3 py-2 rounded-pill">
+                            Done(
+                            <span id="doneListCounter">0</span> /
+                            <span id="totalListCounter">0</span>
+                            )
+                        </p>
+                    </div>
+                    <div id="lists">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/list.js"></script>
+</body>
+</html>

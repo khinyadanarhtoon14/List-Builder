@@ -1,0 +1,1 @@
+$ sass sass/List.scss css/list.css --watch

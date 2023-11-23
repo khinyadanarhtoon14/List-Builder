@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Padauk:wght@400;700&family=Rubik:wght@400;700&display=swap');
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+@import '../node_modules/animate.css/animate.min.css';
+$primary:#333333;
+$font-family-sans-serif:'Rubik','Padauk', sans-serif;
+$headings-font-family:'Montserrat', sans-serif;
+$input-border-radius-lg:0px;
+$input-border-color:$primary;
+$input-border-width:2px;
+$form-check-input-border-radius:0;
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
